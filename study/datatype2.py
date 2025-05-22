@@ -32,3 +32,14 @@ print(my_dict['kaka'])
 
 my_dict['kaka'] = '여'
 print(my_dict['kaka'])
+
+
+# 타입 변경
+my_int = 1
+print(type(my_int))
+print(my_int)
+my_int = float(my_int)
+print(my_int)
+
+my_int = str(my_int)
+print(type(my_int))
